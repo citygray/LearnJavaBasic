@@ -2,6 +2,7 @@ package collection;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashSet;
 
 public class JavaArrayList {
 	public static void main(String[] args) {
@@ -20,9 +21,8 @@ public class JavaArrayList {
 		for (String i : cars) {
 			System.out.println(i);
 		}
-		
-		
-		//Sort Numbers
+
+		// Sort Numbers
 		System.out.println("--Sort Numbers--");
 		ArrayList<Integer> myNumbers = new ArrayList<Integer>();
 		myNumbers.add(5);
@@ -32,13 +32,13 @@ public class JavaArrayList {
 		myNumbers.add(9);
 		myNumbers.add(8);
 		myNumbers.add(10);
-		
+
 		Collections.sort(myNumbers);
-		
-		for(int i:myNumbers) {
+
+		for (int i : myNumbers) {
 			System.out.println(i);
 		}
-		
+
 		/*
 		 * System.out.println(cars.get(0));
 		 * 
@@ -57,6 +57,7 @@ public class JavaArrayList {
 		 * 
 		 */
 
+		
 	}
 
 }
